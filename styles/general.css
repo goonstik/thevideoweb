@@ -5,7 +5,11 @@ p {
 
 body {
   /* This style below will be inherited */
-  font-family: Roboto, Arial;
+ html { 
+  font-family: century-gothic, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
   margin: 0;
   padding-top: 80px;
   padding-left: 96px;
