@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<<link rel="stylesheet" href="styles.css">>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Video Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>\
+<script src="script.js"></script>
+    <header>
+        <h1>My Video Website</h1>
+    </header>
+    <main>
+        <section class="video-player">
+            <video id="main-video" controls>
+                <source src="video1.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </section>
+        <section class="video-thumbnails">
+            <h2>Videos</h2>
+            <div class="thumbnail" onclick="changeVideo('video1.mp4')">
+                <img src="thumbnail1.jpg" alt="Video 1">
+                <p>Video 1</p>
+            </div>
+            <div class="thumbnail" onclick="changeVideo('video2.mp4')">
+                <img src="thumbnail2.jpg" alt="Video 2">
+                <p>Video 2</p>
+            </div>
+            <div class="thumbnail" onclick="changeVideo('video3.mp4')">
+                <img src="thumbnail3.jpg" alt="Video 3">
+                <p>Video 3</p>
+            </div>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
